@@ -11,6 +11,7 @@ window.addEventListener('load',() => {
     updateExchangeRate();
 })
 
+
 for(let select of dropdowns){
     for(currCode in countryList){
         let newOption = document.createElement("option");
